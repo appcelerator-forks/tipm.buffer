@@ -1,6 +1,6 @@
 
 build: components index.js
-	@component build --dev
+	@component build -s Buffer -n Buffer -o .
 
 components: component.json
 	@component install --dev
